@@ -1,0 +1,22 @@
+server:
+  port: 8083
+
+  tracer:
+    property: "I'm the default"
+
+
+spring:
+  datasource:
+      platform: postgres
+      url: jdbc:postgresql://localhost:5432/eagle_eye_local
+      username: postgres
+      password:
+      type: com.zaxxer.hikari.HikariDataSource
+      driver-class-name: org.postgresql.Driver
+  jpa:
+    database: postgresql
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+  #

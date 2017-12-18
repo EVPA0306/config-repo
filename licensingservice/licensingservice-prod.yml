@@ -1,0 +1,12 @@
+server:
+  port: 8084
+
+  tracer:
+    property: "I'm the Production"
+
+  spring:
+    jpa:
+        driverClassName: "org.postgresql.Driver"
+        datasource:
+          url: "jdbc:postgresql://database:5432/eagle_eye_prod"
+          username: "postgresql"

@@ -1,0 +1,12 @@
+server:
+  port: 8084
+
+  tracer:
+    property: "I'm the Dev"
+
+  spring:
+    jpa:
+        driverClassName: "org.H2.Driver"
+        datasource:
+          url: "jdbc:postgresql://database:5432/eagle_eye_local"
+          username: "sa"
