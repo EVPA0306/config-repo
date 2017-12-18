@@ -2,8 +2,7 @@ server:
   port: 8083
 
   tracer:
-    property: "I'm the default"
-    property: "I'm on GitHub now"
+    property: "I'm the default and I'm on GitHub now"
 
 
 spring:
