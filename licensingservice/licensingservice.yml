@@ -3,6 +3,7 @@ server:
 
   tracer:
     property: "I'm the default"
+    property: "I'm on GitHub now"
 
 
 spring:
